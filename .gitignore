@@ -29,5 +29,7 @@ override.tf.json
 # example: *tfplan*
 
 # Local .ruby directories
-**/.bundle/*
-**/vender/*
+app/.bundle/*
+app/vendor/
+
+.DS_Store
