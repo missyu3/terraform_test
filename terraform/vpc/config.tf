@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "container-era-terraform-sample"
-    key    = "terraform-sample/vpc/terraform.tfstate"
+    key    = "sample/vpc/terraform.tfstate"
     region = "ap-northeast-1"
     profile = "terra"
   }
@@ -9,5 +9,5 @@ terraform {
 
 provider "aws" {
   region = "ap-northeast-1"
-    profile = "terra"
+  profile = "terra"
 }
